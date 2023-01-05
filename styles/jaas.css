@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/donation0.jpg);
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-section{
+    text-align: center;
+    padding: 200px 50px;
+}
+
+.header-section button{
+    background-color: orangered;
+}
+.section-tittle-main{
+    font-weight: 700px;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.section-tittle{
+    font-weight: 700px;
+    font-size: 50px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.section-paragraph-main{
+    font-weight: 200px;
+    font-size: 20px;
+    color: azure;
+    padding-bottom: 15px;
+}
+
+.section-paragraph{
+    font-weight: 200px;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.btn-primary{
+    height: 60px;
+    width: 120px;
+    border-radius: 5px;
+    border-style: none;
+    padding: auto;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: inherit;
+}
+
+.main-body{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.donate-today-section{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 200px;
+}
+
+.amount-div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.amount{
+    border: 2px solid white;
+    height: 50px;
+    width: 80px;
+    background-color:rgb(214, 208, 208);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.receive-amount-div input{
+        width: 100%;
+        height: 20px;
+        padding: 12px 20px;
+        border: none;
+        border-bottom: 2px solid red;
+}
+.donate-btn-div{
+    margin-top: 40px;
+}
+
+.donate-btn-div button{
+background-color: orangered;
+}
+
+.donate-plan-section{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+
+.donate-plan-div{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: left;
+    gap: 25px;
+}
+
+.plan-description{
+    height: 250px;
+    padding: 25px;
+    
+}
+
+.plan1{
+    background-color: olivedrab;
+}
+
+.plan2{
+    background-color: orangered;
+}
+
+.plan3{
+    background-color: navajowhite;
+}
+
+.plan-description img{
+    margin-bottom: 50px;
+}
+
+.plan-description h3{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.plan-description p{
+    margin: 10px 0px;
+    font-weight: 300px;
+}
+
+.needy-section1{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 50px;
+    
+}
+
+.div-needy-section1{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+    gap: 30px;
+}
+
+.div-needy-section1 button{
+    margin-top: 50px;
+    width: 150px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.needy-section-text{
+    height: 400px;
+    width: 50%;
+    
+    border-radius: 10px;
+}
+
+.needy-section-image{
+    height: 400px;
+    width: 50%;
+    border: 10px;
+    background-image: url(../images/donation11.jpg);
+    border-radius: 5%;
+}
+
+.needy-section2{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 50px;
+    
+}
+
+.div-needy-section2{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+    gap: 30px;
+}
+
+.div-needy-section2 button{
+    margin-top: 50px;
+    width: 150px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+
+.needy-section-image2{
+    height: 400px;
+    width: 50%;
+    border: 10px;
+    background-image: url(../images/donation3.jpg);
+    border-radius: 5%;
+}
